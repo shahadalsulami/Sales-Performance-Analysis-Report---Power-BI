@@ -14,7 +14,7 @@ The dataset was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kag
 
 <img src="Modeling.png" width="600">
 
-### **3. Measures & DAX **  
+### **3. Measures & DAX**  
 Built **DAX measures** for key metrics and KPIs, such as:  
 
 - Total Sales = SUM('Fact Table'[Total Sales])  
