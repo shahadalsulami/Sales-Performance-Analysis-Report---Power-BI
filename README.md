@@ -14,10 +14,11 @@ The data was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kaggle
 
 **Measures & DAX Calculations**
 - Built **DAX measures** for key metrics and KPIs, such as:
-     Total Sales = SUM('Fact Table'[Total Sales])
-     AVG Sales Per Invoice = DIVIDE([Total Sales], [Invoices Count])
-     Sales Growth % = DIVIDE([YTD] - [YTD Last Year], [YTD Last Year])
-     Customer Satisfaction % = DIVIDE ( AVERAGE ( 'Fact Table'[Customer Satisfaction Score] ), 3 ) * 100
+  Total Sales = SUM('Fact Table'[Total Sales])
+  AVG Sales Per Invoice = DIVIDE([Total Sales], [Invoices Count])
+  Sales Growth % = DIVIDE([YTD] - [YTD Last Year], [YTD Last Year])
+  Customer Satisfaction % = DIVIDE ( AVERAGE ( 'Fact Table'[Customer Satisfaction Score] ), 3 ) * 100
+  Sales Target = [Total Sales] * 1.1  
 
 **Report Visualization**
    - Designed interactive **Line Charts with Area Shading** to show trends.
