@@ -1,6 +1,7 @@
 # Sales Performance Report Using Power-BI
 This report provides an interactive analysis of sales data using **Power BI**  
-The data was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kaggle.com/datasets/shilton123456/sales-in-saudi-arabia).  
+The data was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kaggle.com/datasets/shilton123456/sales-in-saudi-arabia)  
+
 <img src="Sales-Report.png" width="600">
 
 
@@ -10,18 +11,19 @@ The data was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kaggle
 
 **Data Modeling**
 - Created a **Data Model** to define relationships between tables
+  
   <img src="Modeling.png" width="600">
 
 **Measures & DAX Calculations**
 - Built **DAX measures** for key metrics and KPIs, such as:
+       ```
   Total Sales = SUM('Fact Table'[Total Sales])  
   AVG Sales Per Invoice = DIVIDE([Total Sales], [Invoices Count])  
   Sales Growth % = DIVIDE([YTD] - [YTD Last Year], [YTD Last Year])  
   Customer Satisfaction % = DIVIDE ( AVERAGE ( 'Fact Table'[Customer Satisfaction Score] ), 3 ) * 100  
-  Sales Target = [Total Sales] * 1.1  
+  Sales Target = [Total Sales] * 1.1
+       ```
+ 
 
-**Report Visualization**
-   - Designed interactive **Line Charts with Area Shading** to show trends.
-   - Added **Forecasting** to project future sales.
-   - Applied filters and slicers for **dynamic exploration**, including a professionally formatted **Year filter**.
-   - Displayed **Data Labels** only at key points for clarity.
+**Report Visualization**  
+  - Created interactive visuals with forecasting to highlight trends and support data-driven insights.
