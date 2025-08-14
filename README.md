@@ -4,23 +4,17 @@ The dataset was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kag
 
 <img src="Sales-Report.png" width="600">
 
----
-
 ## **Steps Performed**
 
 ### **1. Data Cleaning & Transformation**  
 - Cleaned and transformed the data using **Power Query** to ensure accuracy and consistency.
-
----
 
 ### **2. Data Modeling**  
 - Created a **Data Model** to define relationships between tables.  
 
 <img src="Modeling.png" width="600">
 
----
-
-### **3. Measures & DAX Calculations**  
+### **3. Measures & DAX **  
 - Built **DAX measures** for key metrics and KPIs, such as:  
 
 ```DAX
@@ -29,10 +23,8 @@ AVG Sales Per Invoice = DIVIDE([Total Sales], [Invoices Count])
 Sales Growth % = DIVIDE([YTD] - [YTD Last Year], [YTD Last Year])  
 Customer Satisfaction % = DIVIDE(AVERAGE('Fact Table'[Customer Satisfaction Score]), 3) * 100  
 Sales Target = [Total Sales] * 1.1
-4. Report Visualization
+
+### **4. Report Visualization**
 Created interactive visuals with forecasting to highlight trends and support data-driven insights.
 
-mathematica
-Copy
-Edit
 
