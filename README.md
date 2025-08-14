@@ -15,16 +15,13 @@ The dataset was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kag
 <img src="Modeling.png" width="600">
 
 ### **3. Measures & DAX **  
-- Built **DAX measures** for key metrics and KPIs, such as:  
+Built **DAX measures** for key metrics and KPIs, such as:  
 
-```DAX
-Total Sales = SUM('Fact Table'[Total Sales])  
-AVG Sales Per Invoice = DIVIDE([Total Sales], [Invoices Count])  
-Sales Growth % = DIVIDE([YTD] - [YTD Last Year], [YTD Last Year])  
-Customer Satisfaction % = DIVIDE(AVERAGE('Fact Table'[Customer Satisfaction Score]), 3) * 100  
-Sales Target = [Total Sales] * 1.1
+- Total Sales = SUM('Fact Table'[Total Sales])  
+- AVG Sales Per Invoice = DIVIDE([Total Sales], [Invoices Count])  
+- Sales Growth % = DIVIDE([YTD] - [YTD Last Year], [YTD Last Year])  
+- Sales Target = [Total Sales] * 1.1
+- Customer Satisfaction % = DIVIDE(AVERAGE('Fact Table'[Customer Satisfaction Score]), 3) * 100  
 
 ### **4. Report Visualization**
-Created interactive visuals with forecasting to highlight trends and support data-driven insights.
-
-
+Created interactive visuals with forecasting to highlight trends and support data-driven insights
