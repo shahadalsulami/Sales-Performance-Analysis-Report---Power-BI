@@ -1,8 +1,7 @@
 # Sales Performance Report Using Power-BI
 This report provides an interactive analysis of sales data using **Power BI**  
 The data for this report was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kaggle.com/datasets/shilton123456/sales-in-saudi-arabia).  
-![](Sales-Report.png)
-<img src="Sales-Report.png" width="400">
+<img src="Sales-Report.png" width="600">
 
 
 ## Steps Performed:
@@ -12,7 +11,8 @@ The data for this report was sourced from **Kaggle**: [Sales in Saudi Arabia](ht
 
 2. **Data Modeling**
 - Created a **Data Model** to define relationships between tables.
-   ![](Modeling.png)
+  <img src="Modeling.png" width="600">
+
 
 3. **Measures & DAX Calculations**
 - Built **DAX measures** for key metrics and KPIs, such as:
