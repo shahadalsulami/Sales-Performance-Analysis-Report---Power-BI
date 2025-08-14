@@ -2,7 +2,7 @@
 This report provides an interactive analysis of sales data using **Power BI**  
 The data for this report was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kaggle.com/datasets/shilton123456/sales-in-saudi-arabia).  
 ![](Sales-Report.png)
-<img src="Sales-Report.png" width="200">
+<img src="Sales-Report.png" width="400">
 
 
 ## Steps Performed:
