@@ -1,10 +1,10 @@
-# **Sales Performance Report Using Power BI**  
+## **Sales Performance Report Using Power BI**  
 This report provides an interactive analysis of sales data using **Power BI**.  
 The dataset was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kaggle.com/datasets/shilton123456/sales-in-saudi-arabia).  
 
 <img src="Sales-Report.png" width="600">
 
-## **Steps Performed**
+### **Steps Performed**
 
 ### **1. Data Cleaning & Transformation**  
 - Cleaned and transformed the data using **Power Query** to ensure accuracy and consistency.
