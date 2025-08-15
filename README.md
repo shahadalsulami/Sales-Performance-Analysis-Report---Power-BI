@@ -7,10 +7,10 @@ The dataset was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kag
 ### **Steps Performed**
 
 ### **1. Data Cleaning & Transformation**  
-- Cleaned and transformed the data using **Power Query** to ensure accuracy and consistency.
+- Cleaned and transformed the data using **Power Query** to ensure accuracy and consistency
 
 ### **2. Data Modeling**  
-- Created a **Data Model** to define relationships between tables.  
+- Created a **Data Model** to define relationships between tables  
 
 <img src="Modeling.png" width="600">
 
