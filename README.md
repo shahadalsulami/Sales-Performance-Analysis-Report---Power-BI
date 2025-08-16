@@ -11,7 +11,7 @@ The dataset was sourced from **Kaggle**: [Sales in Saudi Arabia](https://www.kag
 
 ### **2. Data Modeling**  
 - Created a **Data Model** to define relationships between tables  
-
+<img src="Modeling.png" width="600">
 
 ### **3. Measures & DAX**  
 Built **DAX measures** for key metrics and KPIs, such as:  
